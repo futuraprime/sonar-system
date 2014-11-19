@@ -19,8 +19,6 @@ function getPlanet(url, name) {
   });
 }
 
-// getPlanet('../images/planets_Earth.svg', 'earth');
-
 [
   {url : '../images/planets_Mercury.svg', name : 'mercury'},
   {url : '../images/planets_Venus.svg', name : 'venus'},
@@ -31,8 +29,3 @@ function getPlanet(url, name) {
   {url : '../images/planets_Uranus.svg', name : 'uranus'},
   {url : '../images/planets_Neptune.svg', name : 'neptune'}
 ].map(getPlanet);
-
-// Snap.load('../images/planets_Earth.svg', function(f) {
-//   var g = f.select('g');
-//   s.append(g);
-// });
